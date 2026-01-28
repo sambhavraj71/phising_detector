@@ -12,6 +12,7 @@ This project uses **Python, Flask, and Random Forest** to analyze URL features a
 
 ```
 
+
 PHISHING_DETECTOR/
 │
 ├── app.py                     # Flask web application
