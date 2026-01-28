@@ -1,14 +1,14 @@
 
 ```md
-# Phishing Website Detection System 🛡️
+ Phishing Website Detection System 🛡️
 
 A Machine Learning–based web application that detects whether a given website URL is **phishing (malicious)** or **legitimate (safe)**.
 
 This project uses **Python, Flask, and Random Forest** to analyze URL features and predict phishing websites.
 
----
 
-## 📂 Project Structure
+
+ 📂 Project Structure
 
 ```
 
@@ -31,9 +31,8 @@ PHISHING_DETECTOR/
 
 ````
 
----
 
-## 🚀 Features
+ 🚀 Features
 
 - Detects **phishing and legitimate URLs**
 - Uses **Random Forest Classifier**
@@ -41,9 +40,9 @@ PHISHING_DETECTOR/
 - Extracts multiple **URL-based features**
 - Easy to run and understand
 
----
 
-## 🧠 Machine Learning Model
+
+ 🧠 Machine Learning Model
 
 - **Algorithm Used:** Random Forest
 - **Input:** Website URL
@@ -51,9 +50,9 @@ PHISHING_DETECTOR/
   - `0` → Legitimate Website  
   - `1` → Phishing Website
 
----
 
-## 🛠️ Technologies Used
+
+ 🛠️ Technologies Used
 
 - Python 🐍
 - Flask 🌐
@@ -61,51 +60,51 @@ PHISHING_DETECTOR/
 - Pandas & NumPy 📊
 - HTML / CSS 🎨
 
----
 
-## ▶️ How to Run the Project
 
-### 1️⃣ Install Dependencies
+ ▶️ How to Run the Project
+
+ 1️⃣ Install Dependencies
 ```bash
 pip install flask pandas numpy scikit-learn
-````
 
-### 2️⃣ Train the Model (Optional)
+
+ 2️⃣ Train the Model (Optional)
 
 ```bash
 python train_model.py
-```
+
 
 > This will generate `model.pkl`
 
-### 3️⃣ Run the Flask App
+ 3️⃣ Run the Flask App
 
 ```bash
 python app.py
-```
 
-### 4️⃣ Open in Browser
 
-```
+ 4️⃣ Open in Browser
+
+
 http://127.0.0.1:5000/
 ```
 
----
 
-## 📸 Screenshots
+
+ 📸 Screenshots
 
 Screenshots of the project UI are available in the `screenshots` folder.
 
----
 
-## ⚠️ Note
+
+ ⚠️ Note
 
 * The `model.pkl` and `dataset.csv` files may be excluded from GitHub using `.gitignore` due to size limits.
 * You can regenerate the model by running `train_model.py`.
 
----
 
-## 🎓 Academic Use
+
+ 🎓 Academic Use
 
 This project is suitable for:
 
@@ -114,32 +113,32 @@ This project is suitable for:
 * Cyber Security Project
 * Final Year / Semester Submission
 
----
 
-## 👤 Author
+
+ 👤 Author
 
 **Sambhav Raj**
 B.Tech Student
 Cyber Security | Machine Learning | Web Development
 
----
 
-## 📜 License
+
+ 📜 License
 
 This project is for **educational purposes only**.
 
-```
 
----
 
-## ✅ Why this README is GOOD
+
+
+ ✅ Why this README is GOOD
 ✔ Clean & professional  
 ✔ Matches your folder structure  
 ✔ Viva-ready explanation  
 ✔ GitHub-friendly  
 ✔ Teacher-approved format  
 
----
+
 
 If you want, I can also:
 - 🔥 Shorten it for **college submission**
@@ -148,4 +147,4 @@ If you want, I can also:
 - 📄 Convert it into **project report format**
 
 Just say the word 😄
-```
+
