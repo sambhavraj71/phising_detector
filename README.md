@@ -1,9 +1,3 @@
-Got it 👍
-Based on the **folder structure you showed in the image**, here’s a **clean, professional `README.md` content** you can directly copy-paste. This is **perfect for B.Tech projects + GitHub + viva**.
-
----
-
-## 📌 README.md (Recommended Content)
 
 ```md
 # Phishing Website Detection System 🛡️
