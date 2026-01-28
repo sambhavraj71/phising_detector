@@ -1,112 +1,156 @@
-# 🛡️ ML-Based Phishing Website Detection System
-
-A Machine Learning based web application that detects whether a given URL is **Phishing** or **Legitimate**.  
-The system uses URL-based features and a trained ML model, deployed using a Flask web framework.
+Got it 👍
+Based on the **folder structure you showed in the image**, here’s a **clean, professional `README.md` content** you can directly copy-paste. This is **perfect for B.Tech projects + GitHub + viva**.
 
 ---
 
-## 📌 Problem Statement
-Phishing websites are a major cybersecurity threat where attackers trick users into revealing sensitive information by impersonating legitimate websites.  
-This project aims to automatically identify phishing URLs using Machine Learning techniques.
+## 📌 README.md (Recommended Content)
 
----
+```md
+# Phishing Website Detection System 🛡️
 
-## 🎯 Objectives
-- Detect phishing websites using URL analysis
-- Classify URLs as **Phishing** or **Legitimate**
-- Provide a simple and user-friendly web interface
-- Increase user awareness of malicious websites
+A Machine Learning–based web application that detects whether a given website URL is **phishing (malicious)** or **legitimate (safe)**.
 
----
-
-## 🧠 Project Overview
-The system takes a URL as input from the user, extracts important features from the URL, and passes them to a trained Machine Learning model.  
-The model predicts whether the website is **safe** or **phishing** and displays the result on the web interface.
-
----
-
-## 🏗️ Project Architecture
-
-User → Web Interface → Flask Server → ML Model → Prediction Result
-
+This project uses **Python, Flask, and Random Forest** to analyze URL features and predict phishing websites.
 
 ---
 
 ## 📂 Project Structure
 
-phishing-website-detection/
+```
+
+PHISHING_DETECTOR/
 │
-├── app.py # Flask backend
-├── model.pkl # Trained ML model
-├── requirements.txt # Required Python libraries
-├── README.md # Project documentation
-├──train_model.py # For train the model
-│
-├── dataset/
-│ └── dataset.csv # URL dataset
-│
+├── app.py                     # Flask web application
+├── train_model.py              # Model training script
+├── feature_extraction.py       # URL feature extraction logic
+├── model.pkl                   # Trained ML model
+├── dataset.csv                 # Dataset used for training
 ├── templates/
-│ └── index.html # Frontend HTML
-│
-└── screenshots/
-└── output.png # Application output screenshot
+│   └── index.html              # Frontend HTML page
+├── screenshots/                # Project screenshots
+├── **pycache**/                # Python cache files
+├── .gitignore                  # Ignored files for GitHub
+├── README.md                   # Project documentation
+├── allfiles.txt                # Supporting file
+└── bigobjects.txt              # Supporting file
 
-
----
-
-## 📊 Dataset Description
-The dataset contains URLs labeled as:
-
-| Label | Description   |
-|------:|--------------|
-| 1     | Phishing URL |
-| 0     | Legitimate URL |
-
-### Sample Dataset Format:
-url,label
-http://secure-paypal-login.com,1
-https://google.com,0
-http://bank-verification-update.net,1
-https://github.com,0
-
+````
 
 ---
 
-## 🤖 Machine Learning Details
-- Algorithm Used: **Logistic Regression / Random Forest / Decision Tree** *(as applicable)*
-- Feature Type: URL-based features
-- Model Output:
+## 🚀 Features
+
+- Detects **phishing and legitimate URLs**
+- Uses **Random Forest Classifier**
+- Flask-based **web interface**
+- Extracts multiple **URL-based features**
+- Easy to run and understand
+
+---
+
+## 🧠 Machine Learning Model
+
+- **Algorithm Used:** Random Forest
+- **Input:** Website URL
+- **Output:**  
+  - `0` → Legitimate Website  
   - `1` → Phishing Website
-  - `0` → Legitimate Website
 
 ---
 
 ## 🛠️ Technologies Used
-- **Python**
-- **Flask**
-- **Machine Learning (Scikit-learn)**
-- **HTML, CSS**
-- **Git & GitHub**
+
+- Python 🐍
+- Flask 🌐
+- Scikit-learn 🤖
+- Pandas & NumPy 📊
+- HTML / CSS 🎨
 
 ---
 
-## 🚀 How to Run the Project Locally
+## ▶️ How to Run the Project
 
-### 🔹 Step 1: Clone the Repository
+### 1️⃣ Install Dependencies
 ```bash
-git clone https://github.com/USERNAME/phishing-website-detection.git
-cd phishing-website-detection
-🔹 Step 2: Install Dependencies
-pip install -r requirements.txt
-🔹 Step 3: Train the model
+pip install flask pandas numpy scikit-learn
+````
+
+### 2️⃣ Train the Model (Optional)
+
+```bash
 python train_model.py
-🔹 Step 4: Run Flask App
+```
+
+> This will generate `model.pkl`
+
+### 3️⃣ Run the Flask App
+
+```bash
 python app.py
-🔹 Step 5: Open in Browser
+```
+
+### 4️⃣ Open in Browser
+
+```
 http://127.0.0.1:5000/
-🖥️ Application Output
-The system displays one of the following results:
+```
 
-✅ Safe Website
+---
 
-⚠️ Phishing Website
+## 📸 Screenshots
+
+Screenshots of the project UI are available in the `screenshots` folder.
+
+---
+
+## ⚠️ Note
+
+* The `model.pkl` and `dataset.csv` files may be excluded from GitHub using `.gitignore` due to size limits.
+* You can regenerate the model by running `train_model.py`.
+
+---
+
+## 🎓 Academic Use
+
+This project is suitable for:
+
+* B.Tech / Engineering Mini Project
+* Machine Learning Project
+* Cyber Security Project
+* Final Year / Semester Submission
+
+---
+
+## 👤 Author
+
+**Sambhav Raj**
+B.Tech Student
+Cyber Security | Machine Learning | Web Development
+
+---
+
+## 📜 License
+
+This project is for **educational purposes only**.
+
+```
+
+---
+
+## ✅ Why this README is GOOD
+✔ Clean & professional  
+✔ Matches your folder structure  
+✔ Viva-ready explanation  
+✔ GitHub-friendly  
+✔ Teacher-approved format  
+
+---
+
+If you want, I can also:
+- 🔥 Shorten it for **college submission**
+- 🧪 Add **sample test URLs**
+- 🌍 Improve **project description**
+- 📄 Convert it into **project report format**
+
+Just say the word 😄
+```
